@@ -1,0 +1,68 @@
+@media only screen and (max-width: 800px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+p {
+    display: inline-flex;
+    border: 1px solid black;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+#a {
+    height: 28.57142857142857em;
+    width: 100%;
+    background-color: pink;
+}
+
+#b {
+    height: 85.71428571428571em;
+    width: 13.833333333333334em;
+    background-color: lightgray;
+}
+
+#c {
+    height: 28.57142857142857em;
+    width: 22.866em;
+    background-color: lightblue;
+}
+
+#d {
+    height: 28.57142857142857em;
+    width: 22.866em;
+    background-color: lightblue;
+}
+
+#e {
+    background-color: lavender;
+    height: 35.714285714285715em;
+    width: 11.333em;
+}
+
+#f {
+    background-color: lavender;
+    height: 35.714285714285715em;
+    width: 11.333em;
+}
+
+#g {
+    background-color: lavender;
+    height: 35.714285714285715em;
+    width: 11.333em;
+}
+
+#h {
+    background-color: lavender;
+    height: 35.714285714285715em;
+    width: 11.333em;
+}
+
+#i {
+   background-color:  palegoldenrod;
+   height: 21.428571428571427em;
+   width: 45.666em;
+}
