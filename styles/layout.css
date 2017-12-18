@@ -1,68 +1,42 @@
-@media only screen and (max-width: 800px) {
-    /* For mobile phones: */
-    [class*="col-"] {
-        width: 100%;
-    }
-}
-
-p {
-    display: inline-flex;
-    border: 1px solid black;
-    float: left;
+#wrapper {
+    height: 700px;
+    width: 960px;
     margin: 0;
     padding: 0;
 }
 
-#a {
-    height: 28.57142857142857em;
-    width: 100%;
-    background-color: pink;
-}
-
-#b {
-    height: 85.71428571428571em;
-    width: 13.833333333333334em;
+p {
     background-color: lightgray;
+    border: 1px solid rgb(116, 110, 110);
+    font-size: 1.2em;
+    color: rgb(109, 105, 105);
+    margin: 0;
+    padding-top: .8em;
+    padding-left: .8em;
 }
 
-#c {
-    height: 28.57142857142857em;
-    width: 22.866em;
-    background-color: lightblue;
+@media only screen and (max-width: 400px) {
+    /* For mobile phones: */
+    .box-m-a {width: 100%; height: 7.10%}
+    .box-m-b {width: 100%; height: 14.21%}
+    .box-m-c {width: 100%; height: 11.84%}
+    .box-m-d {width: 100%; height: 11.84%}
+    .box-m-e {width: 47.5%; height: 23.69%; display: inline-flex}
+    .box-m-f {width: 47.5%; height: 23.69%; display: inline-flex}
+    .box-m-g {width: 47.5%; height: 23.69%; display: inline-flex}
+    .box-m-h {width: 47.5%; height: 23.69%; display: inline-flex}
+    .box-m-i {width: 100%; height: 7.58%}
 }
 
-#d {
-    height: 28.57142857142857em;
-    width: 22.866em;
-    background-color: lightblue;
-}
-
-#e {
-    background-color: lavender;
-    height: 35.714285714285715em;
-    width: 11.333em;
-}
-
-#f {
-    background-color: lavender;
-    height: 35.714285714285715em;
-    width: 11.333em;
-}
-
-#g {
-    background-color: lavender;
-    height: 35.714285714285715em;
-    width: 11.333em;
-}
-
-#h {
-    background-color: lavender;
-    height: 35.714285714285715em;
-    width: 11.333em;
-}
-
-#i {
-   background-color:  palegoldenrod;
-   height: 21.428571428571427em;
-   width: 45.666em;
+@media only screen and (min-width: 800px) {
+    /* For desktop: */
+    .box-a {width: 97.3%; height: 14.28%}
+    .box-b {width: 21.1%; height: 90.3%; float: left}
+    .box-c {width: 36%; height: 28.57%; display: inline-flex}
+    .box-d {width: 36%; height: 28.57%; display: inline-flex}
+    .box-e {width: 17%; height: 35.71%; display: inline-flex}
+    .box-f {width: 17%; height: 35.71%; display: inline-flex}
+    .box-g {width: 17%; height: 35.71%; display: inline-flex}
+    .box-h {width: 17%; height: 35.71%; display: inline-flex}
+    .box-i {width: 75%; height: 21.42%; display: inline-flex}
 }
